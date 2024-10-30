@@ -1,5 +1,5 @@
 filegroup(
     name = "cjson",
-    srcs = glob(["*"]),
+    srcs = ["cJSON.c","cJSON.h"],
     visibility = ["//visibility:public"],
 )
